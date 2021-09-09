@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.college.demo</groupId>
 	<artifactId>springboot-springjdbc-mysql-demo</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>springboot-springjdbc-mysql-demo</name>
 	<description>Demo project for Spring Boot using Spring JDBC and MYSQL database</description>
 	<properties>
@@ -21,7 +21,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
